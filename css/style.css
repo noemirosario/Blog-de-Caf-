@@ -318,6 +318,29 @@ img{
     text-align: justify;
 }
 
+/* CONTACTO */
+
+.error{
+    background-color: red;
+    text-align: center;
+    padding: 1rem;
+    color: var(--blanco);
+    text-transform: uppercase;
+    border-radius: 1rem;
+    font-weight: bold;
+}
+
+.envioExitoso{
+    background-color: var(--color1);
+    text-align: center;
+    padding: 1rem;
+    color: var(--blanco);
+    text-transform: uppercase;
+    border-radius: 1rem;
+    font-weight: bold;
+}
+
+
 .contacto-bg{
     background-image: url(../img/contacto.jpg);
     height: 40rem;
@@ -356,3 +379,4 @@ img{
 .campo__field--textarea{
     width: 20rem;
 }
+
